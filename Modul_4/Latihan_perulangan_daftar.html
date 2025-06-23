@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Latihan Perulangan</title>
+</head>
+<body>
+    <h2>Daftar Nama Teman</h2>
+    <ul id="daftar-nama">
+        <!-- Konten akan diisi oleh JavaScript -->
+    </ul>
+
+    <script>
+        var nama = ["Salsa", "Islamiyah", "Nur taliyah", "Zulfa", "Nurita"];
+        var daftarElement = document.getElementById("daftar-nama");
+        for (let i = 0; i < nama.length; i++) {
+            daftarElement.innerHTML += "<li>" + nama[i] + "</li>";
+        } 
+    </script>
+</body>
+</html>
